@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function BucketForm(props) {
+function PortofolioForm(props) {
   const [input, setInput] = useState('');
   let [eagerness, setEagerness] = useState('');
 
@@ -84,4 +84,4 @@ function BucketForm(props) {
   );
 }
 
-export default BucketForm;
+export default PortofolioForm;
